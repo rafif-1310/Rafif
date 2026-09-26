@@ -215,7 +215,7 @@ fmt.Println("Sisa uang  :", sisa)
 ```
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/rafif-1310/Rafif/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/output.png)
+![Screenshot Output Unguided](https://github.com/rafif-1310/Rafif/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/output.png)
 
 #### Deskripsi
 Program di atas bertujuan untuk mencacah uang yang kita inputkan ke dalam variable "Jumlah" (int32) dengan cara Jumlah dibagi 10000 lalu sisa Jumlah dibagi sisa 10000 lalu sisa dibagi 5000 lalu sisanya dibagi hasil 5000 lalu sisa akhir dibagi 1000.
