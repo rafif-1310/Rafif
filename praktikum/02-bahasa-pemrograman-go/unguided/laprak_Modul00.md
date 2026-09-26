@@ -179,32 +179,53 @@ func main() {
 ```
 
 ##### Output
-<!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/renwxyz/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/output.png)
+<https://github.com/rafif-1310/Rafif/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/output.png>
 
 
 #### Deskripsi
-[Tuliskan ringkasan proses praktikum: apa yang dikerjakan, bagian guided dan unguided yang diimplementasikan, serta hasil yang diperoleh.]
+Program di atas adalah program kalkulator, dimana program membaca nilai yang kita inputkan lalu disimpan dalam variabel "a" dan "b" keduanya adalah (int). Variable yang kita inputkan akan dieksekusi dengan metode matematika dasar seperti penjumalahan, pengurangan, perkalian, pembagian, dan sisa bagi.
 
-### 2. [nama_soal, misal: kalkulator]
+### 2.Cacahuang.go
 
 ```go
-[Tempelkan kode program di sini, contoh: kalkulator.go]
+package main
+
+import "fmt"
+
+func main() {
+
+var Jumlah int32
+fmt.Println("Masukkan jumlah uang: ")
+fmt.Print("jumlah uang ")
+fmt.Scan(&Jumlah)
+
+uang10000 := Jumlah / 10000
+sisa := Jumlah % 10000
+uang5000 := sisa / 5000
+sisa = sisa % 5000
+uang1000 := sisa / 1000
+sisa = sisa % 1000
+
+fmt.Println("Jumlah uang:", Jumlah)
+fmt.Println("Uang 10000:", uang10000)
+fmt.Println("Uang 5000 :", uang5000)
+fmt.Println("Uang 1000 :", uang1000)
+fmt.Println("Sisa uang  :", sisa)
+}
 ```
 
 ##### Output
-![Screenshot Output Unguided](unguided/[nama_soal]/output.png)
+https://github.com/rafif-1310/Rafif/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/output.png
 
 #### Deskripsi
-[Tuliskan ringkasan proses praktikum: apa yang dikerjakan, bagian guided dan unguided yang diimplementasikan, serta hasil yang diperoleh.]
+Program di atas bertujuan untuk mencacah uang yang kita inputkan ke dalam variable "Jumlah" (int32) dengan cara Jumlah dibagi 10000 lalu sisa Jumlah dibagi sisa 10000 lalu sisa dibagi 5000 lalu sisanya dibagi hasil 5000 lalu sisa akhir dibagi 1000.
 
-<!-- Duplikasi blok "### [nama_soal]" sesuai jumlah folder soal di dalam unguided -->
 
 
 ## Kesimpulan
-[Tuliskan kesimpulan yang menjawab tujuan praktikum berdasarkan hasil yang diperoleh.]
+Program ini bertujuan agar kita mengenali dasar-dasar pemrograman go,melalui berbagai latihan diatas
 
 ## Referensi
-1. [Nama Penulis]. ([Tahun]). *[Judul Buku/Sumber]*. [Kota]: [Penerbit]. Diakses pada [tanggal akses] melalui [tautan/DOI]
-2. [Nama Penulis]. ([Tahun]). *[Judul Buku/Sumber]*. [Kota]: [Penerbit]. Diakses pada [tanggal akses] melalui [tautan/DOI]
-<!-- Tambahkan nomor referensi berikutnya sesuai kebutuhan -->
+1. Irvan Eksa Mahendra. (2021). medium.com. 
+2. Noval Agung Prayogo. (2019). dasarpemrogramangolang.novalagung.com.
+3. Abdullah Fawwaz Qudamah. (2026). fawwaz.id
