@@ -202,7 +202,7 @@ func main() {
 Program ini menentukan apakah tiap mahasiswa mendapat sertifikat ECCT. Enam nilai dijumlahkan dalam perulangan bersarang, dan mahasiswa lulus jika rata-ratanya ≥ 3.33
 
 ## Kesimpulan
-Praktikum ini berhasil menguji penerapan perulangan for dalam mengotomatisasi proses pengolahan data, seperti penjumlahan nilai, pencarian nilai maksimum, dan penghitungan total transaksi sesuai dengan kebutuhan logika program. Selain itu, implementasi perulangan bersarang (nested loop) yang dikombinasikan dengan struktur percabangan terbukti efektif dalam memproses struktur data yang lebih kompleks dan hierarkis secara efisien.
+Praktikum ini berhasil menguji penerapan perulangan for dalam mengotomatisasi proses pengolahan data, seperti penjumlahan nilai, pencarian nilai maksimum, dan penghitungan total transaksi sesuai dengan kebutuhan logika program. Selain itu, implementasi perulangan bersarang (nested loop) yang dikombinasikan dengan struktur percabangan terbukti efektif dalam memproses struktur data yang lebih kompleks dan hierarkis secara efisien. 
 ## Referensi
 1. The Go Authors. (2024). The Go Programming Language Specification. Diakses melalui https://go.dev/ref/spec
 2. Donovan, A. A., & Kernighan, B. W. (2015). The Go Programming Language. New York: Addison-Wesley
