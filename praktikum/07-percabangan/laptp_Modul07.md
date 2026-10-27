@@ -1,4 +1,4 @@
-# <h1 align="center">Tugas Pendahuluan Modul 06 - Perulangan While</h1>
+# <h1 align="center">Tugas Pendahuluan Modul 07 - PERCABANGAN</h1>
 <p align="center">Rafif Ramadhan - 109092630001</p>
 
 ### 1. Perbedaan if, if-else, else if, dan switch pada bahasa pemrograman Go
