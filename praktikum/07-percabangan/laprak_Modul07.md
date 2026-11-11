@@ -148,21 +148,19 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var a, b, c int
 	fmt.Scan(&a, &b, &c)
-	if a <=  0 || b <= 0 || c <= 0 || a+b <= c || a+c <= b || b+c <= a {
+
+	if a <= 0 || b <= 0 || c <= 0 || a+b <= c || a+c <= b || b+c <= a {
 		fmt.Println("bukan segitiga")
 	} else if a == b && b == c {
 		fmt.Println("segitiga sama sisi")
 	} else if a == b || a == c || b == c {
-		fmt.Println(" segitiga sama kaki")
+		fmt.Println("segitiga sama kaki")
 	} else {
 		fmt.Println("segitiga sembarang")
 	}
-	
-	
-
 }
 ```
 
@@ -180,6 +178,7 @@ Cara kerja program:
 ### 3.kalkulator.go
 
 ```go
+package main
 
 import "fmt"
 
@@ -204,10 +203,12 @@ func main() {
 		}
 	case "%":
 		if b == 0 {
-			fmt.Println("Error pembagian dengan nol")
+			fmt.Println("Error: pembagian dengan nol")
 		} else {
 			fmt.Println(a % b)
 		}
+	default:
+		fmt.Println("Operator tidak valid")
 	}
 }
 ```
@@ -259,14 +260,12 @@ func main() {
 	beratBulat := int(math.Ceil(berat))
 	total := beratBulat * tarifPerkg
 
-	if layanan == "Exprss" {
-		total = total + total/2
+	if layanan == "Express" {
 		total += total / 2
 	}
 
 	fmt.Println(beratBulat)
 	fmt.Println(total)
-
 }
 ```
 
@@ -278,7 +277,7 @@ Cara kerja program:
 2. Jika berat melebihi 30 kg, program mencetak pesan bahwa berat melewati batas dan berhenti.
 3. Pernyataan `switch` menentukan tarif per kilogram: Rp10.000 untuk zona 1, Rp15.000 untuk zona 2, dan Rp25.000 untuk zona 3. Nomor zona lain menghasilkan pesan kesalahan dan menghentikan program.
 4. Berat dibulatkan ke atas menggunakan `math.Ceil`, kemudian dikalikan dengan tarif zona untuk memperoleh biaya dasar.
-5. Jika nilai layanan yang dimasukkan tepat `Exprss`, program menambahkan 50% dari total sebanyak dua kali secara berurutan.
+5. Jika nilai layanan yang dimasukkan tepat `Express`, program menambahkan 50% dari total biaya dasar.
 6. Program mencetak berat yang telah dibulatkan dan total biaya.
 
 ## Unguided
